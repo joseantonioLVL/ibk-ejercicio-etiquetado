@@ -39,38 +39,18 @@
   p { margin: 0 0 12px; }
   .subtle { color: var(--muted); font-size: 13.5px; }
 
-  /* Progreso */
-  .progress-bar {
-    height: 6px; background: var(--line-2); border-radius: 3px; overflow: hidden;
-    margin-bottom: 24px;
-  }
+  .progress-bar { height: 6px; background: var(--line-2); border-radius: 3px; overflow: hidden; margin-bottom: 24px; }
   .progress-fill { height: 100%; background: var(--primary); transition: width 0.3s; }
   .progress-text { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-bottom: 8px; font-family: 'Sora', sans-serif; font-weight: 600; letter-spacing: 0.5px; }
 
-  /* Card */
-  .card {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 32px;
-    margin-bottom: 20px;
-  }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 32px; margin-bottom: 20px; }
 
-  /* Contexto */
   .context {
-    background: var(--tint);
-    border-radius: 8px;
-    padding: 14px 18px;
-    margin-bottom: 20px;
-    font-size: 13px;
-    color: var(--muted);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 16px;
+    background: var(--tint); border-radius: 8px; padding: 14px 18px; margin-bottom: 20px;
+    font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 16px;
   }
   .context span strong { color: var(--ink); font-weight: 600; }
 
-  /* Historial */
   .historial { margin-bottom: 20px; }
   .historial .lbl { font-family: 'Sora', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 700; margin-bottom: 10px; }
   .historial-msg { padding: 8px 14px; margin-bottom: 6px; border-radius: 8px; font-size: 13px; }
@@ -78,132 +58,62 @@
   .historial-msg.cliente { background: #dcf0e5; color: var(--ink); }
   .historial-msg .rol { font-family: 'Sora', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700; margin-bottom: 2px; opacity: 0.7; }
 
-  /* Mensaje principal */
   .msg-cliente {
-    background: #fef7e0;
-    border: 2px solid #f2c94c;
-    border-radius: 12px;
-    padding: 20px 24px;
-    margin: 20px 0 32px;
-    position: relative;
+    background: #fef7e0; border: 2px solid #f2c94c; border-radius: 12px;
+    padding: 20px 24px; margin: 20px 0 32px;
   }
-  .msg-cliente .lbl {
-    font-family: 'Sora', sans-serif;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #8a6d15;
-    font-weight: 700;
-    margin-bottom: 8px;
-  }
+  .msg-cliente .lbl { font-family: 'Sora', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #8a6d15; font-weight: 700; margin-bottom: 8px; }
   .msg-cliente .txt { font-size: 16px; line-height: 1.55; color: var(--ink); }
 
-  /* Grupo de botones */
-  .btn-group {
-    margin-bottom: 24px;
-  }
+  .btn-group { margin-bottom: 24px; }
   .btn-group > .lbl {
-    display: block;
-    font-family: 'Sora', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--ink);
-    margin-bottom: 10px;
+    display: block; font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600;
+    color: var(--ink); margin-bottom: 10px;
   }
   .btn-group > .lbl small { color: var(--muted); font-weight: 400; margin-left: 6px; }
   .btn-row { display: flex; flex-wrap: wrap; gap: 8px; }
   .btn-option {
-    background: var(--card);
-    border: 1.5px solid var(--line);
-    border-radius: 8px;
-    padding: 10px 16px;
-    font-family: 'Manrope', sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    cursor: pointer;
-    color: var(--ink);
-    transition: all 0.15s;
+    background: var(--card); border: 1.5px solid var(--line); border-radius: 8px;
+    padding: 10px 16px; font-family: 'Manrope', sans-serif; font-size: 13px; font-weight: 500;
+    cursor: pointer; color: var(--ink); transition: all 0.15s;
   }
   .btn-option:hover { border-color: var(--primary); background: var(--tint); }
   .btn-option.selected { background: var(--primary); color: white; border-color: var(--primary); }
   .btn-option .code { font-family: 'Sora', sans-serif; font-weight: 700; margin-right: 4px; }
 
-  /* Nav */
   .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 24px;
-    padding-top: 20px;
-    border-top: 1px solid var(--line-2);
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line-2);
   }
   .btn-nav {
-    background: var(--primary);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 12px 24px;
-    font-family: 'Sora', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.15s;
+    background: var(--primary); color: white; border: none; border-radius: 8px;
+    padding: 12px 24px; font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 600;
+    cursor: pointer; transition: background 0.15s;
   }
   .btn-nav:hover { background: var(--primary-hover); }
   .btn-nav:disabled { background: var(--line); cursor: not-allowed; }
   .btn-nav.secondary { background: transparent; color: var(--muted); }
   .btn-nav.secondary:hover { background: var(--tint); color: var(--ink); }
 
-  /* Input nombre */
   .input-nombre {
-    width: 100%;
-    padding: 14px 18px;
-    font-size: 16px;
-    border: 1.5px solid var(--line);
-    border-radius: 8px;
-    font-family: 'Manrope', sans-serif;
-    margin: 8px 0 20px;
+    width: 100%; padding: 14px 18px; font-size: 16px; border: 1.5px solid var(--line);
+    border-radius: 8px; font-family: 'Manrope', sans-serif; margin: 8px 0 20px;
   }
   .input-nombre:focus { outline: none; border-color: var(--primary); }
 
-  /* Estados */
-  .badge {
-    display: inline-block;
-    font-size: 11px;
-    padding: 2px 8px;
-    border-radius: 10px;
-    background: var(--ok-tint);
-    color: var(--ok);
-    font-weight: 600;
-    margin-left: 6px;
-    font-family: 'Sora', sans-serif;
-  }
-  .badge.warn { background: #faf1de; color: #a86b0e; }
-
-  /* Fin */
   .fin { text-align: center; padding: 40px 20px; }
   .fin .check {
     display: inline-flex; align-items: center; justify-content: center;
     width: 72px; height: 72px; border-radius: 50%;
     background: var(--ok-tint); color: var(--ok);
-    font-size: 36px; font-weight: 700;
-    margin-bottom: 24px;
+    font-size: 36px; font-weight: 700; margin-bottom: 24px;
   }
 
-  /* Notice guardado */
   .save-indicator {
-    position: fixed;
-    bottom: 20px; right: 20px;
-    background: var(--ok);
-    color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-family: 'Sora', sans-serif;
-    font-weight: 600;
-    opacity: 0;
-    transition: opacity 0.3s;
-    z-index: 1000;
+    position: fixed; bottom: 20px; right: 20px; background: var(--ok); color: white;
+    padding: 8px 16px; border-radius: 20px; font-size: 12px;
+    font-family: 'Sora', sans-serif; font-weight: 600;
+    opacity: 0; transition: opacity 0.3s; z-index: 1000;
   }
   .save-indicator.show { opacity: 1; }
 
@@ -221,10 +131,8 @@
 <script>
 const CASOS = [{"index": 1, "caso_id": "VAGA_07", "contexto": {"nombre": "Rosa", "perfil": "mega_hater", "canal_dominante": "BIE", "nota_nps": 0, "productos": ["CUENTA_NEGOCIO", "PRESTAMO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Rosa. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 0 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ok dale"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 0 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "todo mal pes, no me gusta como ta esto"}, {"index": 2, "caso_id": "E_01_falta_yape", "contexto": {"nombre": "Patricia", "perfil": "mega_hater", "canal_dominante": "BIE", "nota_nps": 0, "productos": ["CUENTA_NEGOCIO", "TC_EMPRESA"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Patricia. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 0 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 0 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}, {"rol": "cliente", "mensaje": "nada bueno"}, {"rol": "bot", "mensaje": "Cuéntame más, ¿tiene que ver con la app, con costos, o con la atención?"}], "mensaje_cliente": "este o sea lo que pasa es que yo necesito hacer transferencias rápidas a mis proveedores no y la aplicación que uso para mi negocio no me da esa opción que todos tienen en sus celulares no o sea mis competidores lo hacen al toque y yo no puedo hacer nada desde ahí"}, {"index": 3, "caso_id": "B_06_login_falla", "contexto": {"nombre": "Ana", "perfil": "hater", "canal_dominante": "Ambos", "nota_nps": 5, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Ana. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 5 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 5 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "No puedo ingresar a mi cuenta. Ingreso mis datos y el sistema no me deja pasar."}, {"index": 4, "caso_id": "B_09_app_se_cae", "contexto": {"nombre": "Carlos", "perfil": "mega_hater", "canal_dominante": "BIE", "nota_nps": 2, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Carlos. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 2 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 2 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "la app d interbank empresa se me cierra sola cada vez q intento ver mis movimientos, es un fastidio pes"}, {"index": 5, "caso_id": "A_02_comisiones_interbancarias", "contexto": {"nombre": "Jorge", "perfil": "hater", "canal_dominante": "App", "nota_nps": 5, "productos": ["CUENTA_NEGOCIO", "TC_EMPRESA"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Jorge. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 5 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 5 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Honestamente, el monto que se descuenta cada vez que realizo transferencias a cuentas de otros bancos me parece excesivo. No lo esperaba al momento de contratar."}, {"index": 6, "caso_id": "DOS_06_B_D", "contexto": {"nombre": "María", "perfil": "mega_hater", "canal_dominante": "App", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO", "PRESTAMO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, María. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "El token digital de la aplicación no logra activarse, y al llamar a soporte nadie da una solución concreta. Es frustrante porque el tiempo de mis operaciones se ve afectado."}, {"index": 7, "caso_id": "CRIT_11_factura_doble", "contexto": {"nombre": "Carlos", "perfil": "mega_hater", "canal_dominante": "App", "nota_nps": 0, "productos": ["CUENTA_NEGOCIO", "TC_EMPRESA"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Carlos. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 0 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 0 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "q les voy a recomendar pes si me han cobrado 2 veces lo mismo el mismo dia en mi cuenta, revisen su sistema xq ta malísimo"}, {"index": 8, "caso_id": "CRIT_04_claves_pin", "contexto": {"nombre": "María", "perfil": "mega_hater", "canal_dominante": "App", "nota_nps": 0, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, María. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 0 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 0 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Recibí un mensaje de un número desconocido solicitando mi PIN de cuenta. Decía ser de Interbank."}, {"index": 9, "caso_id": "CRIT_13_fraude", "contexto": {"nombre": "Carlos", "perfil": "mega_hater", "canal_dominante": "BIE", "nota_nps": 0, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Carlos. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 0 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 0 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Porque hace unos días detecté movimientos que yo no autoricé en mi cuenta. Se retiró dinero sin mi conocimiento."}, {"index": 10, "caso_id": "DOS_20_B_A", "contexto": {"nombre": "Cliente", "perfil": "hater", "canal_dominante": "Otras", "nota_nps": 4, "productos": ["CUENTA_NEGOCIO", "RCC"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Cliente. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 4 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 4 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "La plataforma se congela con frecuencia y no puedo operar con normalidad. Además, las condiciones de mi crédito no son competitivas."}, {"index": 11, "caso_id": "VAGA_09", "contexto": {"nombre": "Ana", "perfil": "hater", "canal_dominante": "BIE", "nota_nps": 3, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Ana. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 3 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí claro"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 3 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "varias cosas pes, no ta del todo bien con el banco"}, {"index": 12, "caso_id": "CRIT_03_indecopi", "contexto": {"nombre": "Rosa", "perfil": "mega_hater", "canal_dominante": "Ambos", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO", "TC_EMPRESA"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Rosa. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Interbank me realizó un cobro que no reconozco en mi Tarjeta de Crédito Empresa y, a pesar de mis reclamos, no han procedido con la devolución. Si esto no se resuelve, presentaré una denuncia ante Indecopi."}, {"index": 13, "caso_id": "NOCRIT_12_generic_amenaza", "contexto": {"nombre": "Rosa", "perfil": "hater", "canal_dominante": "Ambos", "nota_nps": 4, "productos": ["CUENTA_NEGOCIO", "RCC"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Rosa. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 4 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 4 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "la verdad q me ta saliendo caro manejar mi cuenta aca... pero tampoco es q me vaya a cambiar de banco ahorita"}, {"index": 14, "caso_id": "F_01_apertura_engorrosa", "contexto": {"nombre": "Ana", "perfil": "mega_hater", "canal_dominante": "Otras", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Ana. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "q roche la cantidad d papeles q me pidieron pa abrir la cuenta, cosas q ni tenian sentido pedir pes"}, {"index": 15, "caso_id": "NOCRIT_15_generic_amenaza", "contexto": {"nombre": "María", "perfil": "hater", "canal_dominante": "Otras", "nota_nps": 4, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, María. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 4 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí claro"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 4 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "La atención que recibo de mi ejecutivo de cuenta no es la que esperaba. Hay demoras en las respuestas y siento que no me hacen seguimiento adecuado. Eso sí, no tengo intención de hacer ningún reclamo formal, solo quisiera que mejore el servicio."}, {"index": 16, "caso_id": "EDGE_17_emojis", "contexto": {"nombre": "María", "perfil": "mega_hater", "canal_dominante": "Ambos", "nota_nps": 0, "productos": ["CUENTA_NEGOCIO", "POS"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, María. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 0 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 0 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Nadie me contesta cuando tengo un problema 🤬📵 llevo días esperando y nada 😤🙄"}, {"index": 17, "caso_id": "EDGE_25_muy_largo", "contexto": {"nombre": "Jorge", "perfil": "mega_hater", "canal_dominante": "App", "nota_nps": 2, "productos": ["CUENTA_NEGOCIO", "PRESTAMO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Jorge. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 2 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí claro"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 2 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Mira, te voy a ser sincero porque ya estoy bastante frustrado con esto. Tengo mi cuenta de negocio y mi préstamo con ustedes, y la verdad es que el día a día operativo es un dolor de cabeza tremendo. Lo que más me molesta es que la aplicación no se conecta con nada: yo uso un sistema de contabilidad para llevar mis libros y un facturador electrónico para emitir mis comprobantes, y Interbank no se integra con ninguno de los dos. Cada vez que necesito conciliar mis movimientos, tengo que exportar todo a mano, copiar datos, cuadrar en Excel, y si me equivoco en algo pierdo horas. Mis proveedores y clientes me mandan facturas y yo tengo que registrar todo por separado porque el banco no \"habla\" con mi facturador. Eso en una empresa chica como la mía, donde soy yo el que hace todo, es tiempo que no tengo. Por eso puse 2, no por gusto."}, {"index": 18, "caso_id": "EDGE_23_muy_largo", "contexto": {"nombre": "Patricia", "perfil": "mega_hater", "canal_dominante": "BIE", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Patricia. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Mire, le voy a ser completamente honesta porque ya estoy bastante cansada de esta situación. Desde que abrí mi cuenta con ustedes, el aplicativo para empresas ha sido un dolor de cabeza constante. La primera semana no podía ingresar porque simplemente no cargaba, me quedé esperando más de veinte minutos y nada. Luego, cuando por fin logré entrar, quise hacer una transferencia y el sistema me botó a mitad del proceso, dos veces seguidas. Tuve que ir presencialmente al banco para resolver algo que debería tomar cinco minutos desde el celular. Después intenté revisar mis movimientos de los últimos meses y la pantalla se congelaba cada vez. Estamos hablando de distintos días, distintas horas, con buena señal. No es un tema de mi teléfono. Mi negocio necesita agilidad y sinceramente esto no me la da."}, {"index": 19, "caso_id": "DOS_40_C_D", "contexto": {"nombre": "Patricia", "perfil": "hater", "canal_dominante": "Ambos", "nota_nps": 4, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Patricia. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 4 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 4 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "La tarjeta de la cuenta demoró bastante más de lo que me indicaron al inicio. Además, cuando necesito consultar algo, mi ejecutivo asignado no responde."}, {"index": 20, "caso_id": "DOS_10_D_A", "contexto": {"nombre": "Cliente", "perfil": "mega_hater", "canal_dominante": "BIE", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO", "PRESTAMO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Cliente. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "La atención que recibí en la agencia fue deficiente; el ejecutivo fue poco amable y no resolvió mis consultas. Además, al abrir la cuenta me indicaron condiciones distintas a las que luego me cobraron."}, {"index": 21, "caso_id": "CRIT_12_indecopi", "contexto": {"nombre": "Rosa", "perfil": "mega_hater", "canal_dominante": "BIE", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO", "PRESTAMO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Rosa. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí claro"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Mañana presento mi caso ante Indecopi. La atención que he recibido ha sido inaceptable y ya no tengo más paciencia para seguir esperando soluciones."}, {"index": 22, "caso_id": "NOCRIT_06_claves_menciona", "contexto": {"nombre": "Jorge", "perfil": "hater", "canal_dominante": "Ambos", "nota_nps": 4, "productos": ["CUENTA_NEGOCIO", "RCC"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Jorge. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 4 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 4 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "El mantenimiento que me cobran por la cuenta no me parece justo. No es un tema de acceso ni de contraseñas, eso lo manejo sin problemas. Es lo que me descuentan mensualmente."}, {"index": 23, "caso_id": "D_08_call_center_deficiente", "contexto": {"nombre": "Jorge", "perfil": "lover", "canal_dominante": "Otras", "nota_nps": 8, "productos": ["CUENTA_NEGOCIO", "TC_EMPRESA"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Jorge. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 8 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 8 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Principalmente porque cuando llamo para resolver algo, me transfieren varias veces antes de dar con alguien que me ayude. No es lo más eficiente."}, {"index": 24, "caso_id": "C_07_demora_apertura", "contexto": {"nombre": "Jorge", "perfil": "neutro", "canal_dominante": "BIE", "nota_nps": 6, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Jorge. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 6 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 6 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}, {"rol": "cliente", "mensaje": "nada bueno"}, {"rol": "bot", "mensaje": "Cuéntame más, ¿tiene que ver con la app, con costos, o con la atención?"}], "mensaje_cliente": "El proceso para activar mi cuenta fue bastante extenso, tardó varias semanas."}, {"index": 25, "caso_id": "CRIT_09_fraude", "contexto": {"nombre": "Cliente", "perfil": "mega_hater", "canal_dominante": "Ambos", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO", "PRESTAMO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Cliente. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "me robaron plata de mi cuenta, hay transferencias q yo no hice y nadie me da solucion pes"}, {"index": 26, "caso_id": "G_09_positivo_general", "contexto": {"nombre": "Rosa", "perfil": "lover", "canal_dominante": "Otras", "nota_nps": 10, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Rosa. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 10 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 10 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "todo bien con el banco la verdad, sin quejas, me siento comodo pes 👍"}, {"index": 27, "caso_id": "NOCRIT_08_fraude_menciona", "contexto": {"nombre": "Jorge", "perfil": "hater", "canal_dominante": "App", "nota_nps": 4, "productos": ["CUENTA_NEGOCIO", "PRESTAMO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Jorge. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 4 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 4 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Hay conceptos en mi estado de cuenta que no logro identificar con claridad. No sé exactamente a qué corresponden algunos cargos."}, {"index": 28, "caso_id": "CRIT_10_factura_doble", "contexto": {"nombre": "Cliente", "perfil": "mega_hater", "canal_dominante": "BIE", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Cliente. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí claro"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "me descontaron 2 veces lo mismo d mi cuenta y nadie me explica xq"}, {"index": 29, "caso_id": "DOS_04_B_A", "contexto": {"nombre": "Luis", "perfil": "hater", "canal_dominante": "BIE", "nota_nps": 3, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Luis. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 3 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 3 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "La plataforma responde con mucha lentitud, lo cual dificulta mis operaciones diarias. Además, revisando mi estado de cuenta encontré un cargo que no he realizado."}, {"index": 30, "caso_id": "G_08_sin_quejas", "contexto": {"nombre": "Luis", "perfil": "lover", "canal_dominante": "Otras", "nota_nps": 9, "productos": ["CUENTA_NEGOCIO", "POS"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Luis. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 9 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ok dale"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 9 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}, {"rol": "cliente", "mensaje": "no sé"}, {"rol": "bot", "mensaje": "Cuéntame más, ¿tiene que ver con la app, con costos, o con la atención?"}], "mensaje_cliente": "ta bn todo en realidad, no tengo q quejarme jaja"}, {"index": 31, "caso_id": "EDGE_26_comentario_previo_A", "contexto": {"nombre": "Ana", "perfil": "neutro", "canal_dominante": "Ambos", "nota_nps": 7, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": "muchos cobros indebidos"}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Ana. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 7 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí claro"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 7 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "la verdad es q lo q mas me jala pa abajo son los cobros q le hacen a la cuenta, a veces siento q pago demasiado pes"}, {"index": 32, "caso_id": "NOCRIT_11_doble_cobro_menciona", "contexto": {"nombre": "Carlos", "perfil": "hater", "canal_dominante": "App", "nota_nps": 2, "productos": ["CUENTA_NEGOCIO", "POS"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Carlos. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 2 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 2 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "mira al principio crei q me habian cobrado 2 veces pero resulta q uno era d antes... igual siento q lo q me cobran ta medio caro pes, no se si vale lo q pago"}, {"index": 33, "caso_id": "E_12_no_integra_facturacion", "contexto": {"nombre": "Cliente", "perfil": "lover", "canal_dominante": "BIE", "nota_nps": 8, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Cliente. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 8 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ok dale"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 8 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "La verdad estoy bastante conforme con el servicio, pero hay un detalle que me genera algo de fricción en el día a día: mi sistema de emisión de comprobantes no termina de conectarse bien con la cuenta."}, {"index": 34, "caso_id": "DOS_42_D_A", "contexto": {"nombre": "Luis", "perfil": "mega_hater", "canal_dominante": "Otras", "nota_nps": 1, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Luis. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 1 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ya"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 1 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Nadie da seguimiento a los casos que uno reporta. Además, las comisiones que cobran por transferir a otros bancos son excesivas."}, {"index": 35, "caso_id": "VAGA_12", "contexto": {"nombre": "Carlos", "perfil": "hater", "canal_dominante": "BIE", "nota_nps": 5, "productos": ["CUENTA_NEGOCIO", "RCC"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Carlos. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 5 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ok dale"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 5 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "no se pes, esperaba mas de uds la verdad.. un poco decepcionado"}, {"index": 36, "caso_id": "A_07_tipo_cambio", "contexto": {"nombre": "Cliente", "perfil": "neutro", "canal_dominante": "App", "nota_nps": 6, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Cliente. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 6 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "ok dale"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 6 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "El tipo de cambio que manejan no es muy competitivo comparado con lo que he visto en otros bancos."}, {"index": 37, "caso_id": "VAGA_05", "contexto": {"nombre": "Jorge", "perfil": "mega_hater", "canal_dominante": "App", "nota_nps": 2, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Jorge. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 2 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 2 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "pésimo todo pe, q mas q decir"}, {"index": 38, "caso_id": "CRIT_05_claves_pin", "contexto": {"nombre": "Cliente", "perfil": "mega_hater", "canal_dominante": "Ambos", "nota_nps": 2, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Cliente. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 2 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 2 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "me robaron mi clave pes, alguien entro a mi app y no se q hicieron con mi cuenta del negocio, to mal con eso"}, {"index": 39, "caso_id": "NOCRIT_01_indecopi_mencion", "contexto": {"nombre": "Luis", "perfil": "hater", "canal_dominante": "App", "nota_nps": 4, "productos": ["CUENTA_NEGOCIO", "RCC"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Luis. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 4 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "sí"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 4 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}], "mensaje_cliente": "Honestamente, los cobros de mantenimiento me parecen excesivos para lo que recibo. Conozco mis derechos y opciones, pero aún no he llegado a ese punto. Solo espero que revisen su estructura de tarifas."}, {"index": 40, "caso_id": "C_03_operacion_larga_agencia", "contexto": {"nombre": "Jorge", "perfil": "neutro", "canal_dominante": "App", "nota_nps": 6, "productos": ["CUENTA_NEGOCIO"], "comentario_previo": null}, "historial_previo": [{"rol": "bot", "mensaje": "Hola, Jorge. Somos el equipo de experiencia de Interbank Empresas. Vimos que calificaste tus primeros meses como cliente de Interbank Empresa con un 6 y nos gustaría entender por qué, para mejorar. ¿Te parece si te hacemos unas preguntas rápidas (máx. 5 min)? Todo lo que nos cuentes es confidencial y no se comparte con nadie."}, {"rol": "cliente", "mensaje": "está bien"}, {"rol": "bot", "mensaje": "Como te lo comenté al inicio, vemos que la última vez colocaste una puntuación de 6 al momento de responder a la pregunta \"¿qué tan probable es que recomiendes Interbank Empresas a otros colegas?\". ¿A qué se debe esa nota que nos colocaste?"}, {"rol": "cliente", "mensaje": "varias cosas"}, {"rol": "bot", "mensaje": "Cuéntame más, ¿tiene que ver con la app, con costos, o con la atención?"}], "mensaje_cliente": "Las operaciones que realizo en agencia demoran demasiado, a veces espero horas para resolver algo simple."}];
 const WEBHOOK_URL = 'https://lavictorialab.app.n8n.cloud/webhook/ibk-ejercicio-etiquetado';
+const STORAGE_KEY = 'ibk_ejercicio_v2';  // v2: cambió el schema (quité tipo_conv, agregué atipico)
 
-const STORAGE_KEY = 'ibk_ejercicio_v1';
-
-// Estado
 let state = loadState() || {
   session_id: crypto.randomUUID(),
   etiquetador: '',
@@ -234,12 +142,8 @@ let state = loadState() || {
   caso_start_at: null,
 };
 
-function saveState() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-}
-function loadState() {
-  try { return JSON.parse(localStorage.getItem(STORAGE_KEY)); } catch (e) { return null; }
-}
+function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+function loadState() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)); } catch (e) { return null; } }
 function resetState() {
   localStorage.removeItem(STORAGE_KEY);
   state = { session_id: crypto.randomUUID(), etiquetador: '', current: 0, respuestas: {}, started_at: null, caso_start_at: null };
@@ -260,8 +164,8 @@ async function enviarAlServidor(caso, r) {
     caso_index: caso.index,
     dim_principal: r.dim_principal || null,
     dim_secundaria: r.dim_secundaria === 'ninguna' ? null : (r.dim_secundaria || null),
-    tipo_conversacion: r.tipo_conversacion || null,
     caso_critico: r.caso_critico === 'no' ? null : (r.caso_critico || null),
+    caso_atipico: r.caso_atipico === 'no' ? null : (r.caso_atipico || null),
     tiempo_seg: tiempo,
   };
   try {
@@ -271,23 +175,14 @@ async function enviarAlServidor(caso, r) {
       body: JSON.stringify(payload),
     });
     if (resp.ok) showSaveIndicator();
-    else console.warn('Fallo POST:', resp.status);
-  } catch (e) {
-    console.warn('No se pudo enviar:', e);
-    // Los datos quedan en localStorage, se pueden re-enviar después
-  }
+  } catch (e) { console.warn('No se pudo enviar:', e); }
 }
 
-// Renderizado
 function render() {
   const app = document.getElementById('app');
-  if (!state.etiquetador) {
-    renderBienvenida(app);
-  } else if (state.current < CASOS.length) {
-    renderCaso(app, CASOS[state.current]);
-  } else {
-    renderFin(app);
-  }
+  if (!state.etiquetador) renderBienvenida(app);
+  else if (state.current < CASOS.length) renderCaso(app, CASOS[state.current]);
+  else renderFin(app);
 }
 
 function renderBienvenida(app) {
@@ -296,26 +191,22 @@ function renderBienvenida(app) {
     <p class="subtle">Piloto diarIA · Interbank Empresas · La Victoria Lab</p>
     <div class="card" style="margin-top: 24px;">
       <h2>¿Cómo funciona?</h2>
-      <p>Vas a leer <strong>${CASOS.length} mensajes</strong> de clientes hipotéticos y clasificarlos según:</p>
+      <p>Vas a leer <strong>${CASOS.length} mensajes</strong> de clientes hipotéticos y clasificarlos según la taxonomía oficial IBK:</p>
       <ul style="padding-left: 20px;">
-        <li><strong>Dimensión principal</strong> del tema (A-G)</li>
-        <li><strong>Dimensión secundaria</strong> si menciona un 2° tema</li>
-        <li><strong>Tipo de conversación</strong></li>
-        <li><strong>¿Es caso crítico?</strong> (si debe derivarse a humano)</li>
+        <li><strong>Dimensión principal</strong> del tema (A-G del glosario)</li>
+        <li><strong>Dimensión secundaria</strong> si menciona un 2° tema distinto</li>
+        <li><strong>¿Es caso crítico?</strong> (uno de los 4 tipos de la hoja de casos críticos)</li>
+        <li><strong>¿Es caso atípico?</strong> (uno de los 4 tipos de la hoja de casos atípicos)</li>
       </ul>
       <p class="subtle">Tiempo estimado: <strong>30–40 min</strong>. Podés pausar y retomar cuando quieras — tu progreso se guarda automáticamente.</p>
-
       <label style="display: block; font-family: 'Sora', sans-serif; font-weight: 600; margin: 24px 0 4px;">Tu nombre <small style="color: var(--muted); font-weight: 400;">(para identificar quién etiquetó)</small></label>
       <input type="text" class="input-nombre" id="nombreInput" placeholder="Nombre y apellido" autofocus>
-
       <button class="btn-nav" id="btnStart" disabled>Empezar</button>
     </div>
   `;
   const input = document.getElementById('nombreInput');
   const btn = document.getElementById('btnStart');
-  input.addEventListener('input', () => {
-    btn.disabled = input.value.trim().length < 3;
-  });
+  input.addEventListener('input', () => { btn.disabled = input.value.trim().length < 3; });
   btn.addEventListener('click', () => {
     state.etiquetador = input.value.trim();
     state.started_at = Date.now();
@@ -366,15 +257,11 @@ function renderCaso(app, caso) {
         <div class="txt">${escapeHTML(caso.mensaje_cliente)}</div>
       </div>
 
-      <!-- Dimensión principal -->
       <div class="btn-group">
-        <span class="lbl">Dimensión principal <small>tema principal del mensaje</small></span>
-        <div class="btn-row" data-group="dim_principal">
-          ${dimensionButtons(r.dim_principal)}
-        </div>
+        <span class="lbl">Dimensión principal <small>tema principal del mensaje (A-G)</small></span>
+        <div class="btn-row" data-group="dim_principal">${dimensionButtons(r.dim_principal)}</div>
       </div>
 
-      <!-- Dimensión secundaria -->
       <div class="btn-group">
         <span class="lbl">Dimensión secundaria <small>solo si menciona un 2° tema distinto</small></span>
         <div class="btn-row" data-group="dim_secundaria">
@@ -383,27 +270,25 @@ function renderCaso(app, caso) {
         </div>
       </div>
 
-      <!-- Tipo conversación -->
       <div class="btn-group">
-        <span class="lbl">Tipo de conversación</span>
-        <div class="btn-row" data-group="tipo_conversacion">
-          <button class="btn-option ${r.tipo_conversacion === 'deteccion_rapida' ? 'selected' : ''}" data-value="deteccion_rapida">Detección rápida</button>
-          <button class="btn-option ${r.tipo_conversacion === 'vaga' ? 'selected' : ''}" data-value="vaga">Respuesta vaga</button>
-          <button class="btn-option ${r.tipo_conversacion === 'dos_dolores' ? 'selected' : ''}" data-value="dos_dolores">Dos dolores</button>
-          <button class="btn-option ${r.tipo_conversacion === 'dim_producto' ? 'selected' : ''}" data-value="dim_producto">Dim + producto</button>
-          <button class="btn-option ${r.tipo_conversacion === 'critico' ? 'selected' : ''}" data-value="critico">Crítico</button>
+        <span class="lbl">¿Es caso crítico? <small>debe derivarse a humano IBK</small></span>
+        <div class="btn-row" data-group="caso_critico">
+          <button class="btn-option ${r.caso_critico === 'no' || !r.caso_critico ? 'selected' : ''}" data-value="no">No</button>
+          <button class="btn-option ${r.caso_critico === 'indecopi' ? 'selected' : ''}" data-value="indecopi">Reclamo INDECOPI</button>
+          <button class="btn-option ${r.caso_critico === 'claves_pin' ? 'selected' : ''}" data-value="claves_pin">Revelar datos sensibles (claves/PIN)</button>
+          <button class="btn-option ${r.caso_critico === 'fraude' ? 'selected' : ''}" data-value="fraude">Fraude / cargo no reconocido</button>
+          <button class="btn-option ${r.caso_critico === 'factura_doble' ? 'selected' : ''}" data-value="factura_doble">Factura no autorizada / doble descuento</button>
         </div>
       </div>
 
-      <!-- Caso crítico -->
       <div class="btn-group">
-        <span class="lbl">¿Es un caso crítico? <small>debe derivarse a humano IBK</small></span>
-        <div class="btn-row" data-group="caso_critico">
-          <button class="btn-option ${r.caso_critico === 'no' || !r.caso_critico ? 'selected' : ''}" data-value="no">No</button>
-          <button class="btn-option ${r.caso_critico === 'indecopi' ? 'selected' : ''}" data-value="indecopi">INDECOPI</button>
-          <button class="btn-option ${r.caso_critico === 'claves_pin' ? 'selected' : ''}" data-value="claves_pin">Claves / PIN</button>
-          <button class="btn-option ${r.caso_critico === 'fraude' ? 'selected' : ''}" data-value="fraude">Fraude</button>
-          <button class="btn-option ${r.caso_critico === 'factura_doble' ? 'selected' : ''}" data-value="factura_doble">Factura doble</button>
+        <span class="lbl">¿Es caso atípico? <small>el bot ajusta su respuesta pero no sale del flujo</small></span>
+        <div class="btn-row" data-group="caso_atipico">
+          <button class="btn-option ${r.caso_atipico === 'no' || !r.caso_atipico ? 'selected' : ''}" data-value="no">No</button>
+          <button class="btn-option ${r.caso_atipico === 'insulto' ? 'selected' : ''}" data-value="insulto">Insulto / enojo sin detalle</button>
+          <button class="btn-option ${r.caso_atipico === 'desinformacion' ? 'selected' : ''}" data-value="desinformacion">Desinformación / malentendido</button>
+          <button class="btn-option ${r.caso_atipico === 'fuera_de_alcance' ? 'selected' : ''}" data-value="fuera_de_alcance">Fuera de alcance / pide gestión</button>
+          <button class="btn-option ${r.caso_atipico === 'silencio' ? 'selected' : ''}" data-value="silencio">Silencio / abandono</button>
         </div>
       </div>
 
@@ -414,7 +299,6 @@ function renderCaso(app, caso) {
     </div>
   `;
 
-  // Handlers
   document.querySelectorAll('.btn-row').forEach(row => {
     const group = row.dataset.group;
     row.querySelectorAll('.btn-option').forEach(btn => {
@@ -423,7 +307,6 @@ function renderCaso(app, caso) {
         r[group] = val;
         state.respuestas[caso.caso_id] = r;
         saveState();
-        // Re-render solo la fila
         row.querySelectorAll('.btn-option').forEach(b => b.classList.remove('selected'));
         btn.classList.add('selected');
         actualizarBotonNext(r);
@@ -458,7 +341,7 @@ function actualizarBotonNext(r) {
 }
 
 function validarCompleto(r) {
-  return r.dim_principal && r.tipo_conversacion && r.caso_critico && (r.dim_secundaria || r.dim_secundaria === 'ninguna');
+  return r.dim_principal && r.caso_critico && r.caso_atipico && (r.dim_secundaria || r.dim_secundaria === 'ninguna');
 }
 
 function dimensionButtons(selected) {
